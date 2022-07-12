@@ -1,0 +1,40 @@
+Namespace(T=1, align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='dialogsum-bin/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=14632, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe', user_dir=None, validpref='../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe.source: 12460 sents, 2759900 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe.source: 500 sents, 109399 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe.target: 12473 sents, 446893 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe.target: 501 sents, 16871 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to dialogsum-bin/
+Namespace(T=1, align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='dialogsum-bin/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=14632, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe', user_dir=None, validpref='../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe.source: 12460 sents, 2759900 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe.source: 500 sents, 109399 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe.target: 12473 sents, 446893 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe.target: 501 sents, 16871 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to dialogsum-bin/
+Namespace(T=1, align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='dialogsum-bin/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=14632, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe', user_dir=None, validpref='../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe.source: 12460 sents, 2759900 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe.source: 500 sents, 109399 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe.target: 12473 sents, 446893 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe.target: 501 sents, 16871 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to dialogsum-bin/
+Namespace(T=1, align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='dialogsum-bin/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=14632, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe', user_dir=None, validpref='../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe.source: 12460 sents, 2759900 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe.source: 500 sents, 109399 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data/dialogsum/DialogSum_Data/train_dialogsum_sent_c99_label.bpe.target: 12460 sents, 446888 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data/dialogsum/DialogSum_Data/val_dialogsum_sent_c99_label.bpe.target: 500 sents, 16870 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to dialogsum-bin/
