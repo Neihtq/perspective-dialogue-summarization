@@ -13,8 +13,31 @@ For training and evaluating each model please refere to the respective README of
 # Getting Started
 Install the requirements:
 
-`
+```
 pip install -r requirements.txt
-`
+```
 
 # Data Preprocessing
+```
+cd src/data
+python split_labels.py --path=path/to/dialogsum/dataset
+```
+
+# Training Multi-Headed-CODS
+Copy the processed data to `CODS/data/raw/new_dialogsum/`
+
+Then 
+```
+cd CODS/src/preprocess/
+python preprocess_data.py
+python -m spacy download en
+python extract_key_phrases.py
+python segment_dialogue.py
+```
+
+Execute Training:
+```
+cd ../../
+./run_train.sh
+```
+You can adjust the parameters in `run_train.sh`
